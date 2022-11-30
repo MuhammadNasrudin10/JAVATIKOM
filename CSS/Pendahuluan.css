@@ -149,7 +149,7 @@ body{
     z-index: 100;
     transition: right 301ms;
     justify-content: center;
- 
+
 }
 #judulfix a span{
     font-size: 25px;
@@ -229,4 +229,4 @@ main{
   {
       float		: none;
   }
-  }
+}
