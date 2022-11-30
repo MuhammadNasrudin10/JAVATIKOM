@@ -85,31 +85,37 @@
         <main>
             <div id="content">
                 <div class="materi materiaktif" id="materi1">
-                    <h3>Apa itu JAVA ?</h3>
+                    <h3><strong>Apa itu JAVA ?</strong></h3>
                     <p>Java adalah bahasa pemrograman dan platform komputasi yang pertama kali dirilis oleh Sun
                         Microsystems pada tahun 1995.
-                        Java telah berkembang dari awal yang sederhana hingga menggerakkan sebagian besar dunia digital
+                        Java telah berkembang dari awal yang sederhana hingga menggerakkan sebagian besar dunia
+                        digital
                         saat ini, dengan
-                        menyediakan platform yang andal di mana banyak layanan dan aplikasi dibangun. Produk baru dan
+                        menyediakan platform yang andal di mana banyak layanan dan aplikasi dibangun. Produk
+                        baru dan
                         inovatif serta layanan
                         digital yang dirancang untuk masa depan juga terus mengandalkan Java.</p>
                     <br>
 
-                    <h3>Mengapa menggunakan JAVA ?</h3>
+                    <h3><strong>Mengapa menggunakan JAVA ?</strong></h3>
                     <ul>
-                        <li>- Java bekerja pada platform yang berbeda (Windowns, Mac, Linux, Raspbery Pi, dll</li>
+                        <li>- Java bekerja pada platform yang berbeda (Windowns, Mac, Linux, Raspbery Pi, dll
+                        </li>
                         <li>- Ini adalah salah satu bahasa pemrograman populer di dunia</li>
                         <li>- Ini memiliki permintaan besar di pasar kerja saat ini</li>
                         <li>- Mudah dipelajari dan mudah digunakan</li>
                         <li>- Ini open-source dan gratis</li>
                         <li>- Aman, cepat dan kuat</li>
-                        <li>- Bahasa yang berorientasi objek yang memberikan struktur yang jelas pada program dan
+                        <li>- Bahasa yang berorientasi objek yang memberikan struktur yang jelas pada program
+                            dan
                             memungkinkan kode untuk digunakan kembali</li>
-                        <li>- Java dekat dengan C++ dan C#, memudahkan pemrograman untuk beralih ke Java atau sebaliknya
+                        <li>- Java dekat dengan C++ dan C#, memudahkan pemrograman untuk beralih ke Java atau
+                            sebaliknya
                         </li>
                     </ul>
                     <br>
-                    <h3>Syntax Standar JAVA</h3>
+
+                    <h3><strong>Syntax Standar JAVA</strong></h3>
                     <div class="card w-90 bg-light">
                         <div class="card-body">
                             <h5 class="card-title">Main.java</h5>
@@ -146,7 +152,89 @@
 
                 </div>
                 <div class="materi" id="materi2">
-                    <p>Konten</p>
+                    <h3><strong>Komentar Java</strong></h3>
+                    <p>Komentar dapat digunakan untuk menjelaskan kode Java, dan membuatnya lebih mudah dibaca.
+                        Itu juga
+                        dapat digunakan untuk
+                        mencegah eksekusi saat menguji kode alternatif.</p>
+                    <br>
+                    <h3><strong>Komentar Baris Tunggal</strong></h3>
+                    <p>Komentar satu baris dimulai dengan dua garis miring <strong>( // )</strong>.</p>
+                    <p>Teks apa pun di antara <strong>//</strong> dan di akhir baris akan diabaikan oleh Java (tidak
+                        akan dieksekusi).
+                    </p>
+                    <p>Contoh ini menggunakan komentar baris tunggal sebelum baris kode:</p>
+                    <div class="card w-90 bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Contoh</h5>
+                            <div class="card w-60 bg-gradient">
+                                <div class="card-body fs-5">
+                                    <code>
+                                        // Ini adalah komen <br>
+                                        System.out.println(&quot;Hello World&quot;);
+                                    </code>
+                                </div>
+                            </div>
+                            <div>
+                                <a target="_blank"
+                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_single_comment"
+                                    class="btn btn-primary mt-2">Coba W3</a>
+
+                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Anm"
+                                    class="btn btn-primary mt-2">Coba JD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Contoh ini menggunakan komentar baris tunggal di akhir baris kode:</p>
+                    <div class="card w-90 bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Contoh</h5>
+                            <div class="card w-60 bg-gradient">
+                                <div class="card-body fs-5">
+                                    <code>
+                                        System.out.println(&quot;Hello World&quot;) // Ini adalah komen;
+                                    </code>
+                                </div>
+                            </div>
+                            <div>
+                                <a target="_blank"
+                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_single_comment_end"
+                                    class="btn btn-primary mt-2">Coba W3</a>
+
+                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Anq"
+                                    class="btn btn-primary mt-2">Coba JD</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <h3><strong>Komentar Multi Baris</strong></h3>
+                    <p>Komentar multi-baris dimulai dengan /*dan diakhiri dengan */.</p>
+                    <p>Teks apa pun di antara /*dan */akan diabaikan oleh Java.</p>
+                    <p>Contoh ini menggunakan komentar multi-baris (blok komentar):</p>
+                    <div class="card w-90 bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Contoh</h5>
+                            <div class="card w-60 bg-gradient">
+                                <div class="card-body fs-5">
+                                    <code>
+                                    /* Kode di bawah ini akan menampilkan tulisan Hello World <br>
+                                    ke layar, dan itu luar biasa */ <br>
+                                    System.out.println(&quot;Hello World&quot;);
+                                    </code>
+                                </div>
+                            </div>
+                            <div>
+                                <a target="_blank"
+                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_multi_comment"
+                                    class="btn btn-primary mt-2">Coba W3</a>
+
+                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Ant"
+                                    class="btn btn-primary mt-2">Coba JD</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <nav aria-label="Page navigation example">
