@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/CSS/Pendahuluan.css">
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h1><span class="lab la-accusoft"></span> <span>Javatikom</span></h1>
+        </div>
+        <div class="daftarIsi">
+            <h1>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                    <span>Daftar Isi</span>
+                </label>
+            </h1>
+
+        </div>
+
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <button class="menubar menubaractive" onclick="judul(event, 'judul1', 'materi1')"><span
+                            class="las la-book"></span>
+                        <span>Pendahuluan</span></button>
+                </li>
+                <li>
+                    <button class="menubar" onclick="judul(event, 'judul2', 'materi2')"><span
+                            class="las la-book"></span>
+                        <span>Komentar</span></button>
+                </li>
+                <li>
+                    <button class="menubar" onclick="judul(event, 'judul3', 'materi2')"><span
+                            class="las la-book"></span>
+                        <span>Tipe Data</span></button>
+                </li>
+                <li>
+                    <button class="menubar" onclick="judul(event, 'judul4', 'materi2')"><span
+                            class="las la-question"></span>
+                        <span>Evaluasi</span></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div id="judulfix">
+            <div class="judul judulAktif" id="judul1">
+                <center>
+                    <h2>Javatikom</h2>
+                </center>
+            </div>
+            <div class="judul" id="judul2">
+                <center>
+                    <h2>Komentar</h2>
+                </center>
+            </div>
+
+            <div class="judul" id="judul3">
+                <center>
+                    <h2>Tipe Data</h2>
+                </center>
+            </div>
+
+            <div class="judul" id="judul4">
+                <center>
+                    <h2>Evaluasi</h2>
+                </center>
+            </div>
+            <!-- <h2 class="title"></h2> -->
+            <a href="../HTML/intro.html">
+                <span class="las la-home"></span>
+            </a>
+        </div>
+
+        <main>
+            <div id="content">
+                <div class="materi materiaktif" id="materi1">
+                    <p>Lensa adalah benda bening tembus cahaya yang terdiri atas dua
+                        bidang lengkung atau satu bidang lengkung dan satu bidang datar.
+                        Ada dua jenis lensa yaitu lensa cembung dan lensa cekung.</p>
+                    <p>Lensa adalah benda bening tembus cahaya yang terdiri atas dua
+                        bidang lengkung atau satu bidang lengkung dan satu bidang datar.
+                        Ada dua jenis lensa yaitu lensa cembung dan lensa cekung.</p>
+                </div>
+                <div class="materi" id="materi2">
+                    <p>Konten</p>
+                </div>
+            </div>
+
+            <div class="nav">
+                <center>
+                    <a href="" class="tombol">Sebelumnya</a>
+                    <a href="" class="tombol">Selanjutnya</a>
+                </center>
+            </div>
+        </main>
+
+    </div>
+    <script src="/js/Pendahuluan.js"></script>
+</body>
+
+</html>
