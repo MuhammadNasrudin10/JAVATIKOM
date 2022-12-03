@@ -7,11 +7,27 @@
 }
 
 .card{
+    background: #D1F2FF;
     transition: all 0.2s ease;
     cursor: pointer;
+    border: none;
 }
 
 .card:hover{
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.1);
+    box-shadow: none;
+}
+
+.offcanvas{
+  --bs-offcanvas-zindex: 1045;
+  --bs-offcanvas-width: 600px;
+  --bs-offcanvas-height: 30vh;
+  --bs-offcanvas-padding-x: 1rem;
+  --bs-offcanvas-padding-y: 1rem;
+  --bs-offcanvas-color: ;
+  --bs-offcanvas-bg: #fff;
+  --bs-offcanvas-border-width: 1px;
+  --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+  --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
