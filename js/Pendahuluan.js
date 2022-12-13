@@ -16,6 +16,4 @@ function judul(evt, nmrIsi, mtr) {
     document.getElementById(mtr).style.display = "block";
     evt.currentTarget.className += " menubaractive";
 
-
-
 }
