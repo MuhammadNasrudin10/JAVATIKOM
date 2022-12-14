@@ -87,5 +87,5 @@ let questions = [
             "int",
             "boolean"
         ]
-    }8
+    }
 ];
