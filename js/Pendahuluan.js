@@ -19,17 +19,17 @@ function judul(evt, nmrIsi, mtr) {
 }
 
 //cek jawaban isian
-function cekJawaban(){
+function cekJawaban() {
     let isi1 = document.getElementById("isian1").value.toLowerCase();
     let jawaban1 = new RegExp('//');
     let result1 = jawaban1.test(isi1);
 
-    if(result1 == true){
-        
+    if (result1 == true) {
+
         document.getElementById("cekIsian1").style.color = "green";
         document.getElementById("isian1").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian1").style.color = "red";
         document.getElementById("isian1").style.border = "2px solid red";
     }
@@ -38,12 +38,12 @@ function cekJawaban(){
     let jawaban2 = new RegExp('//');
     let result2 = jawaban2.test(isi2);
 
-    if(result2 == true){
-        
+    if (result2 == true) {
+
         document.getElementById("cekIsian2").style.color = "green";
         document.getElementById("isian2").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian2").style.color = "red";
         document.getElementById("isian2").style.border = "2px solid red";
     }
@@ -52,12 +52,12 @@ function cekJawaban(){
     let jawaban3 = new RegExp('int');
     let result3 = jawaban3.test(isi3);
 
-    if(result3 == true){
-        
+    if (result3 == true) {
+
         document.getElementById("cekIsian3").style.color = "green";
         document.getElementById("isian3").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian3").style.color = "red";
         document.getElementById("isian3").style.border = "2px solid red";
     }
@@ -66,25 +66,25 @@ function cekJawaban(){
     let jawaban4 = new RegExp('float');
     let result4 = jawaban4.test(isi4);
 
-    if(result4 == true){
-        
+    if (result4 == true) {
+
         document.getElementById("cekIsian4").style.color = "green";
         document.getElementById("isian4").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian4").style.color = "red";
         document.getElementById("isian4").style.border = "2px solid red";
-    }    
+    }
     let isi5 = document.getElementById("isian5").value.toLowerCase();
     let jawaban5 = new RegExp('char');
     let result5 = jawaban5.test(isi5);
 
-    if(result5 == true){
-        
+    if (result5 == true) {
+
         document.getElementById("cekIsian5").style.color = "green";
         document.getElementById("isian5").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian5").style.color = "red";
         document.getElementById("isian5").style.border = "2px solid red";
     }
@@ -93,12 +93,12 @@ function cekJawaban(){
     let jawaban6 = new RegExp('boolean');
     let result6 = jawaban6.test(isi6);
 
-    if(result6 == true){
-        
+    if (result6 == true) {
+
         document.getElementById("cekIsian6").style.color = "green";
         document.getElementById("isian6").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian6").style.color = "red";
         document.getElementById("isian6").style.border = "2px solid red";
     }
@@ -107,12 +107,12 @@ function cekJawaban(){
     let jawaban7 = new RegExp('string');
     let result7 = jawaban7.test(isi7);
 
-    if(result7 == true){
-        
+    if (result7 == true) {
+
         document.getElementById("cekIsian7").style.color = "green";
         document.getElementById("isian7").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian7").style.color = "red";
         document.getElementById("isian7").style.border = "2px solid red";
     }
@@ -121,12 +121,12 @@ function cekJawaban(){
     let jawaban8 = new RegExp('primitive');
     let result8 = jawaban8.test(isi8);
 
-    if(result8 == true){
-        
+    if (result8 == true) {
+
         document.getElementById("cekIsian8").style.color = "green";
         document.getElementById("isian8").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian8").style.color = "red";
         document.getElementById("isian8").style.border = "2px solid red";
     }
@@ -135,18 +135,18 @@ function cekJawaban(){
     let jawaban9 = new RegExp('int');
     let result9 = jawaban9.test(isi9);
 
-    if(result9 == true){
-        
+    if (result9 == true) {
+
         document.getElementById("cekIsian9").style.color = "green";
         document.getElementById("isian9").style.border = "2px solid green"
-    } else{
-        
+    } else {
+
         document.getElementById("cekIsian9").style.color = "red";
         document.getElementById("isian9").style.border = "2px solid red";
     }
 
-  }
-  function reset(){
+}
+function reset() {
     // document.getElementsByClassName('ini')[0].value = "";
     document.getElementById("isian1").value = "";
     document.getElementById("isian2").value = "";
@@ -157,13 +157,13 @@ function cekJawaban(){
     document.getElementById("isian7").value = "";
     document.getElementById("isian8").value = "";
     document.getElementById("isian9").value = "";
-    document.getElementById("isian1").style="border: 0,5 solid";
-    document.getElementById("isian2").style="border: 0,5 solid";
-    document.getElementById("isian3").style="border: 0,5 solid";
-    document.getElementById("isian4").style="border: 0,5 solid";
-    document.getElementById("isian5").style="border: 0,5 solid";
-    document.getElementById("isian6").style="border: 0,5 solid";
-    document.getElementById("isian7").style="border: 0,5 solid";
-    document.getElementById("isian8").style="border: 0,5 solid";
-    document.getElementById("isian9").style="border: 0,5 solid";
-  }
+    document.getElementById("isian1").style = "border: 0,5 solid";
+    document.getElementById("isian2").style = "border: 0,5 solid";
+    document.getElementById("isian3").style = "border: 0,5 solid";
+    document.getElementById("isian4").style = "border: 0,5 solid";
+    document.getElementById("isian5").style = "border: 0,5 solid";
+    document.getElementById("isian6").style = "border: 0,5 solid";
+    document.getElementById("isian7").style = "border: 0,5 solid";
+    document.getElementById("isian8").style = "border: 0,5 solid";
+    document.getElementById("isian9").style = "border: 0,5 solid";
+}

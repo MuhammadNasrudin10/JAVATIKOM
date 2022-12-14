@@ -22,45 +22,30 @@
 <body>
     <input type="checkbox" id="nav-toggle">
     <div class="sidebar">
-        <div class="sidebar-brand">
-            <!-- <h1><span class="lab la-accusoft"></span> <span>JAVATIKOM</span></h1> -->
+        <div class="sidebar-brand mb-4">
             <a href="/index.html"><img src="/img/LogoJavaTiKom-Login.png" alt="Logo" width="85" height="80"></a>
         </div>
-        <div class="daftarIsi">
+        <div class="daftarIsi text-center">
             <h1>
                 <label for="nav-toggle">
-                    <span class="las la-bars"></span>
-                    <span>Daftar Isi</span>
+                    <span>Tujuan Pembelajaran</span>
                 </label>
             </h1>
-
         </div>
 
 
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <button class="menubar menubaractive" onclick="judul(event, 'judul1', 'materi1')"><span
+                    <button class="menubar menubaractive text-center" onclick="judul(event, 'judul1', 'materi1')"><span
                             class="las la-book"></span>
                         <span>Komentar</span></button>
                 </li>
                 <li>
-                    <button class="menubar" onclick="judul(event, 'judul2', 'materi2')"><span
+                    <button class="menubar text-center" onclick="judul(event, 'judul2', 'materi2')"><span
                             class="las la-book"></span>
                         <span>Tipe Data</span></button>
                 </li>
-                    <!-- <ul class="submenu-menubar">
-                        <li>
-                            <button class="menubar" onclick="judul(event, 'judul2', 'materi2')"><span
-                                    class="las la-book"></span>
-                                <span>Number</span></button>
-                        </li>
-                        <li>
-                            <button class="menubar" onclick="judul(event, 'judul2', 'materi2')"><span
-                                    class="las la-book"></span>
-                                <span>Booleans</span></button>
-                        </li> -->
-                    </ul>
             </ul>
         </div>
     </div>
@@ -68,457 +53,28 @@
     <div class="main-content">
         <div id="judulfix">
             <div class="judul judulAktif justify-content-center" id="judul1">
-                <h2>Tujuan Pembelajaran Materi Komentar</h2>
+                <h2>Tujuan Pembelajaran Komentar</h2>
             </div>
+
             <div class="judul justify-content-center" id="judul2">
-                <h2>Tujuan Pembelajaran Materi Tipe Data</h2>
+                <h2>Tujuan Pembelajaran Tipe Data</h2>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="content">
+            <!-- Tujuan Pembelajaran Komentar -->
+            <div class="materi materiaktif" id="materi1">
+                <h3><strong>Tujuan Pembelajaran Materi Komentar</strong></h3>
             </div>
 
+            <!-- Tujuan Pembelajaran Tipe Data -->
+            <div class="materi materiaktif" id="materi2">
+                <h3>Tipe Data</h3>
+            </div>
         </div>
-
-        <main>
-            <div id="content">
-                <!-- Tujuan Pembelajaran Komentar -->
-                <div class="materi materiaktif" id="materi1">
-                    <h3><strong>Tujuan Pembelajaran Materi Komentar</strong></h3>
-                    <p>Setelah selesai mempelajari materi kali ini, kamu akan mampu untuk: <br>
-                       1. Menghindari kesalahan penulisan komentar. <br>
-                       2. Menerapkan penggunaan garis miring (komentar) yang benar pada Java. <br>
-                       3. Menerapkan cara pembuatan komentar satu baris sebelum baris kode pada Java. <br>
-                       4. Menerapkan cara pembuatan komentar satu baris diakhir kode pada Java. <br>
-                       5. Menerapkan cara pembuatan komentar Multi-baris pada Java. <br>
-                       6. Menerapkan cara pembuatan komentar untuk dokumentasi secara otomatis pada Java. </p>
-                    <br>
-
-                    <!-- <h3><strong>Mengapa menggunakan JAVA ?</strong></h3>
-                    <ul>
-                        <li>- Java bekerja pada platform yang berbeda (Windowns, Mac, Linux, Raspbery Pi, dll
-                        </li>
-                        <li>- Ini adalah salah satu bahasa pemrograman populer di dunia</li>
-                        <li>- Ini memiliki permintaan besar di pasar kerja saat ini</li>
-                        <li>- Mudah dipelajari dan mudah digunakan</li>
-                        <li>- Ini open-source dan gratis</li>
-                        <li>- Aman, cepat dan kuat</li>
-                        <li>- Bahasa yang berorientasi objek yang memberikan struktur yang jelas pada program
-                            dan
-                            memungkinkan kode untuk digunakan kembali</li>
-                        <li>- Java dekat dengan C++ dan C#, memudahkan pemrograman untuk beralih ke Java atau
-                            sebaliknya
-                        </li>
-                    </ul>
-                    <br>
-
-                    <h3><strong>Syntax Standar JAVA</strong></h3>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Main.java</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        public class Main { <br>
-                                        &nbsp;&nbsp;public static void main(String[] args) {<br>
-                                        &nbsp;&nbsp;&nbsp;System.out.println(&quot;Hello World&quot;);<br>
-                                        &nbsp;} <br>
-                                        }
-                                    </code>
-                                </div>
-                            </div> -->
-                            <!-- <div>
-                                <a target="_blank"
-                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_helloworld"
-                                    class="btn btn-primary mt-2">Coba W3</a>
-
-                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/And"
-                                    class="btn btn-primary mt-2">Coba JD</a>
-
-                                <a>a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class=" btn btn-primary mt-2">Coba</a>
-
-                            </div> -->
-
-
-                            <!-- Compiler Langsung Muncul -->
-                            <!-- <div data-pym-src="https://www.jdoodle.com/iembed/v0/And">
-                                <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js"
-                                    type="text/javascript"></script>
-                            </div> -->
-
-
-                            <!-- Compiler belum ada kode, masukkan manual -->
-                            <!-- <div class="row">
-                                <div data-pym-src='https://www.jdoodle.com/plugin' data-language="java"
-                                    data-version-index="4" data-libs="mavenlib1, mavenlib2">
-                                    Silahkan masukkan kode java di sini !!!
-                                </div>
-                                <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js"
-                                    type="text/javascript"></script>
-                            </div> -->
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Materi Komentar -->
-                <div class="materi" id="materi2">
-                    <h3><strong>Komentar Java</strong></h3>
-                    <p>Komentar dapat digunakan untuk menjelaskan kode Java, dan membuatnya lebih mudah dibaca.
-                        Itu juga
-                        dapat digunakan untuk
-                        mencegah eksekusi saat menguji kode alternatif.</p>
-                    <br>
-                    <h3><strong>Komentar Baris Tunggal</strong></h3>
-                    <p>Komentar satu baris dimulai dengan dua garis miring <strong>( // )</strong>.</p>
-                    <p>Teks apa pun di antara <strong>//</strong> dan di akhir baris akan diabaikan oleh Java (tidak
-                        akan dieksekusi).
-                    </p>
-                    <!-- <p>Contoh ini menggunakan komentar baris tunggal sebelum baris kode:</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Contoh</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        // Ini adalah komen <br>
-                                        System.out.println(&quot;Hello World&quot;);
-                                    </code>
-                                </div> -->
-                            </div>
-                            <!-- <div> -->
-                                <!-- <a target="_blank"
-                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_single_comment"
-                                    class="btn btn-primary mt-2">Coba W3</a>
-
-                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Anm"
-                                    class="btn btn-primary mt-2">Coba JD</a> -->
-
-                                <!-- <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div> -->
-                        </div>
-                    </div>
-                    <br>
-                    <p>Contoh ini menggunakan komentar baris tunggal di akhir baris kode:</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Contoh</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        System.out.println(&quot;Hello World&quot;) // Ini adalah komen;
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <!-- <a target="_blank"
-                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_single_comment_end"
-                                    class="btn btn-primary mt-2">Coba W3</a>
-
-                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Anq"
-                                    class="btn btn-primary mt-2">Coba JD</a> -->
-
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class=" btn btn-primary mt-2">Coba</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <br>
-                    <h3><strong>Komentar Multi Baris</strong></h3>
-                    <p>Komentar multi-baris dimulai dengan /*dan diakhiri dengan */.</p>
-                    <p>Teks apa pun di antara /*dan */akan diabaikan oleh Java.</p>
-                    <p>Contoh ini menggunakan komentar multi-baris (blok komentar):</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Contoh</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                    /* Kode di bawah ini akan menampilkan tulisan Hello World <br>
-                                    ke layar, dan itu luar biasa */ <br>
-                                    System.out.println(&quot;Hello World&quot;);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <!-- <a target="_blank"
-                                    href="https://www.w3schools.com/java/tryjava.asp?filename=demo_multi_comment"
-                                    class="btn btn-primary mt-2">Coba W3</a>
-
-                                <a target="_blank" href="https://www.jdoodle.com/iembed/v0/Ant"
-                                    class="btn btn-primary mt-2">Coba JD</a> -->
-
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h3><strong>Quiz</strong></h3>
-                    <p>Untuk mengetahui seberapa paham tentang materi Komentar pada Java, silahkan ikuti kuis berikut
-                        dengan klik tombol <strong>Quiz</strong></strong></p>
-                    <a href="QuizKomentar.html" class="btn btn-primary btn-lg">Quiz</a>
-                </div>
-
-                <!-- Materi Tipe Data -->
-                <div class="materi" id="materi3">
-                    <h3><strong>Tipe Data Primitif</strong></h3>
-                    <p>Java adalah bahasa yang diketik dengan kuat. Ini berarti bahwa setiap variabel harus memiliki
-                        tipe yang dideklarasikan.
-                        Ada delapan tipe primitif di Java, yaitu:</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Tipe Data</th>
-                                <th scope="col">Ukuran</th>
-                                <th scope="col">Deskripsi</th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-group-divider">
-                            <tr>
-                                <td>byte</td>
-                                <td>1 byte</td>
-                                <td>Menyimpan bilangan bulat dari -128 hingga 127</td>
-                            </tr>
-                            <tr>
-                                <td>short</td>
-                                <td>2 byte</td>
-                                <td>Menyimpan bilangan bulat dari -32.768 hingga 32.767</td>
-                            </tr>
-                            <tr>
-                                <td>int</td>
-                                <td>4 byte</td>
-                                <td>Menyimpan bilangan bulat dari -2.147.483.648 hingga 2.147.483.647</td>
-                            </tr>
-                            <tr>
-                                <td>long</td>
-                                <td>8 byte</td>
-                                <td>Menyimpan bilangan bulat dari -9.223.372.036.854.775.808 hingga
-                                    9.223.372.036.854.775.807</td>
-                            </tr>
-                            <tr>
-                                <td>float</td>
-                                <td>4 byte</td>
-                                <td>Menyimpan bilangan pecahan. Cukup untuk menyimpan 6 hingga 7 digit desimal</td>
-                            </tr>
-                            <tr>
-                                <td>double</td>
-                                <td>8 byte</td>
-                                <td>Menyimpan bilangan pecahan. Cukup untuk menyimpan 15 digit desimal</td>
-                            </tr>
-                            <tr>
-                                <td>boolean</td>
-                                <td>1 bit</td>
-                                <td>Menyimpan nilai benar atau salah</td>
-                            </tr>
-                            <tr>
-                                <td>char</td>
-                                <td>2 byte</td>
-                                <td>Menyimpan satu karakter/huruf atau nilai ASCII</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h4>Tipe 1 : Byte</h4>
-                    <p>Ini dapat digunakan sebagai pengganti int atau tipe integer lainnya untuk menghemat memori ketika
-                        anda yakin bahwa
-                        nilainya berada dalam -128 dan 127</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        byte myNum = 100;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class=" btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 2 : Short</h4>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        short myNum = 5000;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 3 : Int</h4>
-                    <p>Tipe data int adalah tipe data yang lebih disukai saat kita membuat variabel dengan nilai
-                        numerik.</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        int myNum = 100000;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 4 : Long</h4>
-                    <p>Ini digunakan ketika int tidak cukup besar untuk menyimpan nilai. Perhatikan bahwa Anda harus
-                        mengakhiri nilai dengan
-                        "L"</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        int myNum = 15000000000L;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 5 dan 6 : Float dan Double</h4>
-                    <p>Anda harus menggunakan tipe floatk apan pun anda membutuhkan angka dengan desimal,
-                        seperti 9,99 atau 3,14515.<br>Tipe data float dan double dapat menyimpan bilangan pecahan.
-                        Perhatikan bahwa Anda harus mengakhiri nilai dengan "f"
-                        untuk float dan "d" untuk double:</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax Float</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        float myNum = 5.75F;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax Double</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        double myNum = 19.99D;<br>
-                                        System.out.println(myNum);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 7 : Boolean</h4>
-                    <p>Ini digunakan ketika int tidak cukup besar untuk menyimpan nilai. Perhatikan bahwa Anda harus
-                        mengakhiri nilai dengan
-                        "L"</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        boolean isJavaFun = true;<br>
-                                        boolean isFishTasty = false;<br>
-                                        System.out.println(isJavaFun);<br>
-                                        System.out.println(isFishTasty);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tipe 8 : Char</h4>
-                    <p>Tipe data char digunakan untuk menyimpan satu karakter. Karakter harus diapit oleh tanda kutip
-                        tunggal, seperti 'A' atau
-                        'c':</p>
-                    <div class="card w-90 bg-light">
-                        <div class="card-body">
-                            <h5 class="card-title">Syntax</h5>
-                            <div class="card w-60 bg-gradient">
-                                <div class="card-body fs-5">
-                                    <code>
-                                        char myGrade = 'B';<br>
-                                        System.out.println(myGrade);
-                                    </code>
-                                </div>
-                            </div>
-                            <div>
-                                <a target="_blank" href="https://www.jdoodle.com/plugin" rel="noopener noreferrer"
-                                    class="btn btn-primary mt-2">Coba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h3><strong>Quiz</strong></h3>
-                    <p>Untuk mengetahui seberapa paham tentang materi Tipe Data pada Java, silahkan ikuti kuis berikut
-                        dengan klik tombol <strong>Quiz</strong></strong></p>
-                    <a href="QuizTipeData.html" class="btn btn-primary btn-lg">Quiz</a>
-                </div>
-
-                 <!-- Evaluasi -->
-                 <div class="materi" id="materi4">
-                    <div class="content-card">
-                        <div class="card-header-2" > <img src="../img/question.png" width="30" height="30" />Petunjuk Soal</div>
-                        <div class="baris">
-                            
-                                <ul style="margin-left: -20px;">
-                                    <p><li>Jika jawaban kamu benar, maka kotak akan bewarna "<font style="color: green;font-weight: bold;">Hijau</font>".</li></p>
-                                    <p><li>Jika jawaban kamu salah, maka kotak akan bewarna "<font style="color: red;font-weight: bold;">Merah</font>".</li></p>
-                                    <p>Setelah mempelajari materi Komentar dan Tipe Data pada java. Lengkapilah isian berikut di bawah ini!</p>
-                                </ul>
-                                
-                            
-                            <hr>
-                            <ol>
-                            <li>1. <input type="text" style="padding: 3px;" id="isian1"> Lengkapi bagian yang kosong untuk membuat tulisannya menjadi komentar satu baris sebelum satu baris kode!<span id="cekIsian1"></span></li><br>
-                            <li>2. Lengkapi bagian yang kosong untuk membuat tulisannya menjadi komentar yang berada diakhir baris!  <input type="text" style="padding: 3px;" id="isian2"><span id="cekIsian2"></span></li><br>
-                            <li>3. Tambahkan tipe data yang benar untuk variabel berikut: <br><input type="text" style="padding: 3px;" id="isian3"><span id="cekIsian3"></span> myNum = 9;<br><br><input type="text" style="padding: 4px;" id="isian4"><span id="cekIsian4"></span> myFloatNum = 8.99f;<br><br><input type="text" style="padding: 3px;" id="isian5"><span id="cekIsian5"></span> myLetter = 'A';<br><br><input type="text" style="padding: 3px;" id="isian6"><span id="cekIsian6"></span> myBool = false;<br><br><input type="text" style="padding: 3px;" id="isian7"><span id="cekIsian7"></span> myText = "Hello World";</li><br>
-                            <li>4. byte, short, int, long, float, double, boolean dan char disebut :<br><input type="text" style="padding: 3px;" id="isian8"><span id="cekIsian8"></span> tipe data </li>
-                            <li>5. Ketik casting - ubah tipe data double berikut (myDouble) menjadi tipe data int:<br>int myInt = <input type="text" style="padding: 3px;" id="isian9"><span id="cekIsian9"></span> myDouble; </li>
-                            </ol>
-                            <br>
-                            <button class="button-utama" onclick="cekJawaban()">Cek Jawaban</button>
-                            <button onclick="reset()" class="button-utama">Reset</button>
-                        </div>
-        </main>
+    </main>
 
     </div>
 
