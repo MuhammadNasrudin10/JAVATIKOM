@@ -77,4 +77,15 @@ let questions = [
             "boolean"
         ]
     },
+    {
+        numb: 8,
+        question: "Tipe data yang digunakan untuk menyimpan satu karakter yaitu ?",
+        answer: "char",
+        options: [
+            "char",
+            "float",
+            "int",
+            "boolean"
+        ]
+    }8
 ];
